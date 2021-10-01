@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const fs = require('fs/promises')
 
 // creates a date directory in a folder
