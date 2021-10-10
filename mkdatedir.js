@@ -7,8 +7,8 @@ const main = async () => {
     try {
         const now = new Date();
         
-        const paddedMonth = `${now.getMonth()}`.padStart(2, '0');
-        const paddedDay = `${now.getDay()}`.padStart( 2, '0');
+        const paddedMonth = `${now.getMonth() + 1}`.padStart(2, '0');
+        const paddedDay = `${now.getDate()}`.padStart( 2, '0');
         
         const dirName = `${now.getFullYear()}-${paddedMonth}-${paddedDay}`;
             
