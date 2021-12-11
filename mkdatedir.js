@@ -13,6 +13,8 @@ const main = async () => {
         const dirName = `${now.getFullYear()}-${paddedMonth}-${paddedDay}`;
             
         await fs.mkdir(dirName);
+        
+        console.log(dirName)
     } catch (e) {
         console.log(e.message);
     }
