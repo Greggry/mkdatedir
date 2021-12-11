@@ -17,6 +17,9 @@
   ],
   "author": "greggry",
   "license": "ISC",
+  "bin": {
+    "mkdatedir": "./mkdatedir.js"
+  },
   "bugs": {
     "url": "https://github.com/Greggry/mkdatedir/issues"
   },
