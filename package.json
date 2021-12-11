@@ -6,11 +6,19 @@
   "scripts": {
     "test": "node mkdatedir"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greggry/mkdatedir.git"
+  },
   "keywords": [
     "automation",
     "date",
     "mkdir"
   ],
   "author": "greggry",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greggry/mkdatedir/issues"
+  },
+  "homepage": "https://github.com/Greggry/mkdatedir#readme"
 }
