@@ -1,0 +1,16 @@
+{
+  "name": "mkdatedir",
+  "version": "1.0.0",
+  "description": "a script for automating creating date directories",
+  "main": "mkdatedir.js",
+  "scripts": {
+    "test": "node mkdatedir"
+  },
+  "keywords": [
+    "automation",
+    "date",
+    "mkdir"
+  ],
+  "author": "greggry",
+  "license": "ISC"
+}
